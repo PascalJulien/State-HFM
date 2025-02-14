@@ -1,3 +1,4 @@
 [submodule "bench-mr"]
-	path = bench-mr
-	url = ./bench-mr
+    path = bench-mr
+    url = https://github.com/PascalJulien/bench-mr
+    branch = my-modifications
