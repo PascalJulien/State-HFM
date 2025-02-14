@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: agd
+Version: 0.2.15
+Summary: Adaptive Grid Discretizations
+Home-page: https://github.com/Mirebeau/AdaptiveGridDiscretizations/
+Author: Jean-Marie Mirebeau
+Author-email: jm.mirebeau@gmail.com
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+AGD Development Version
