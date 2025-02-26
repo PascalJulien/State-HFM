@@ -63,6 +63,7 @@ build/
 #
 bench-mr_old/
 RC
+*.json
 
 # Jupyter checkpoints
 .ipynb_checkpoints
