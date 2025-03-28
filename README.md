@@ -27,7 +27,7 @@ cd State-HFM
 git submodule init && git submodule update
 ```
 
-Or you can just download the zip archive and unzip it 
+Or just download the zip archive and unzip it 
 
 ```bash
 sudo apt-get update
