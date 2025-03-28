@@ -27,6 +27,15 @@ cd State-HFM
 git submodule init && git submodule update
 ```
 
+Or you can just download the zip archive and unzip it 
+
+```bash
+sudo apt-get update
+sudo apt-get install zip unzip
+unzip State-HFM.zip
+cd State-HFM
+```
+
 ### 2. Install AGD (Adaptive Grid Discretization)
 
 The State-HFM implementation relies on the AGD library for the Fast Marching Method implementation. 
