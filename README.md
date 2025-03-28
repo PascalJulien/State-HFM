@@ -27,6 +27,15 @@ cd State-HFM
 git submodule init && git submodule update
 ```
 
+Or just download the zip archive and unzip it 
+
+```bash
+sudo apt-get update
+sudo apt-get install zip unzip
+unzip State-HFM.zip
+cd State-HFM
+```
+
 ### 2. Install AGD (Adaptive Grid Discretization)
 
 The State-HFM implementation relies on the AGD library for the Fast Marching Method implementation. 
@@ -99,10 +108,8 @@ The benchmarking framework evaluates path planning algorithms using several key 
 - **Maximum Curvature**: Highest rate of turning along the path
 - **Minimum Clearing Distance**: Smallest distance to obstacles (safety metric)
 - **Mean Clearing Distance**: Average clearance throughout trajectory
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Angular Deviation**: Variation of orientation between last points of the path
+- **Euclidean Deviation**: Variation of position between last positions of the path
 
 ## Acknowledgments
 
